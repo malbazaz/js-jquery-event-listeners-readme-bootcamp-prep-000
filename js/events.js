@@ -15,7 +15,7 @@ function getIt(){
 }
 
 function frameIt(){
-  $('img').addClass('.tasty')
+  $('img').addClass('tasty')
   $('.tasty').on('load', function(){
  document.getElementById('.tasty').style.border = "thick solid #ff0000" 
     
